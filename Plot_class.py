@@ -391,7 +391,7 @@ class Base_MatPlotGraph_Object:
         """
         if self.__is_ok is False:
             return None
-        plt.savefig(self._file_name + '.png', dpi=self._dpi)
+        plt.savefig('./static/img/' + self._file_name + '.png', dpi=self._dpi)
 
     ################ Show Figure #################
 
